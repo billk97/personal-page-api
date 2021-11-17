@@ -10,4 +10,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: "Lint and tests"
-        run: docker-compose run app sh -c python "manage.py test && flake8"
+        run: docker-compose run app sh -c "python manage.py test && flake8"
