@@ -7,5 +7,3 @@ class CalcTest(TestCase):
 
     def test_dd_two_numbers(self):
         self.assertEqual(add(3, 5), 8)
-
-
