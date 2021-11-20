@@ -9,8 +9,8 @@ RUN pip install -r /requirements.txt
 
 RUN mkdir /app
 WORKDIR /app
-COPY ./page_api /app
+COPY ./app /app
 
-RUN adduser -D user
-USER user
+#RUN adduser -D user
+#USER user
 
